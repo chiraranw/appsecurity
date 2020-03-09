@@ -1,0 +1,18 @@
+<div class="row">
+
+    <ul>
+        <li>Home - only signed in users</li>
+        <li>Users - any user can access this link</li>
+        <li>Managers - only managers & Admins</li>
+        <li>Admins only</li>
+    </ul>
+    <ul>
+        <li> <a name="" id="" class="btn btn-primary" [routerLink]="['/home']" role="button">Home</a></li>
+        <li> <a name="" id="" class="btn btn-primary" [routerLink]="['/users']" role="button">Users</a></li>
+        <li><a name="" id="" class="btn btn-primary" [routerLink]="['/managers']" role="button">Managers</a></li>
+        <li><a name="" id="" class="btn btn-primary" [routerLink]="['/admins']" role="button">Admins </a></li>
+        <li><a name="" id="" class="btn btn-primary" (click)="logout()" role="button">Logout </a></li>
+    </ul>
+
+    <br>
+</div>
